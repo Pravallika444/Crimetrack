@@ -1,3 +1,4 @@
+//Model
 const { getDB } = require('../config/db');
 
 const crimeSchema = {

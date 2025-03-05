@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Crime = require('../models/crimeModel');
 
-// Create a new crime report
+// Create a new crime report 
 router.post('/', async (req, res) => {
   const crimeData = req.body;
   try {

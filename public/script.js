@@ -1,4 +1,4 @@
-// Modal Functions
+// Modal Functions 
 function openReportModal() {
   document.getElementById('reportModal').style.display = 'flex';
 }
